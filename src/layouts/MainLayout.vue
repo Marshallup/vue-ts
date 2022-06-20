@@ -20,6 +20,7 @@
     <template #extension>
       <v-container>
         <div class="d-flex align-center">
+
           <div class="mr-7">
             <v-btn
               color="white"
@@ -32,6 +33,7 @@
           <div>
             <HeaderMenu />
           </div>
+
         </div>
       </v-container>
     </template>
@@ -41,8 +43,7 @@
     <v-container>
       <MainBreadcrumbs />
 
-    <router-view />
-
+      <router-view />
     </v-container>
   </v-main>
 

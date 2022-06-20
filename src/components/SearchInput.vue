@@ -18,12 +18,7 @@
 <script setup lang="ts">
 import { defineProps } from 'vue';
 
-// type MyComponentProps = InstanceType<typeof VTextField>;
-// console.log(InstanceType<typeof VTextField>);
-// console.log(type VTextField, 'v text');
 defineProps<{ test?: string }>();
-
-// console.log(MyComponentProps, 'MyComponentProps')
 </script>
 <script lang="ts">
 export default {
@@ -31,14 +26,6 @@ export default {
   inheritAttrs: false,
 };
 </script>
-
-<!-- <script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  name: 'SearchInput',
-});
-</script> -->
 
 <style lang="scss" scoped>
 .search-input-class {
